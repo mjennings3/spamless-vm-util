@@ -8,7 +8,6 @@ function main() {
 
 	async function concatAudio(tonefile, ...filesList) {
 		filesList = filesList.map(item => item = ` -i '${PATH}${item}'`).join();
-		console.log("FILESLIST ", filesList)
 		const { stdout, stderr } = await exec(`ffmpeg -i '${PATH}${tonefile}'${filesList} -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1[aout]" -map "[aout]" spamless-vm.mp3`);
 		console.log(`stdout: ${stdout}`);
 		console.error(`stderr: ${stderr}`)
