@@ -10,7 +10,9 @@ A more complete list of SIT can be found [**here**](https://en.wikipedia.org/wik
 
 ## How do I use it?
 This is not a user-friendly tool at the moment. You can explore the included **Files** directory to get an idea of what's going on.
+
 You must simply add your own VM recording as "vmmsg.mp3" to the **Files** folder, then run **index.js**. Your new Spamless voicemail file will appear in the project root directory.
+
 From here you can play the file out loud into your phone while you record your voicemailbox message. If you don't know how to do that, here's a [**Reddit post**](https://www.reddit.com/r/iphone/comments/12fonbl/how_do_i_change_my_voicemail_name_greeting/) you may find helpful.
 
 I will make a web app for this in a future iteration.
