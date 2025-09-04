@@ -1,0 +1,25 @@
+{
+  "name": "spamless-vm-util",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mjennings3/spamless-vm-util#readme",
+  "bugs": {
+    "url": "https://github.com/mjennings3/spamless-vm-util/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjennings3/spamless-vm-util.git"
+  },
+  "license": "GPL-2.0",
+  "author": "Matt Jennings",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ffmpeg": "^0.0.4",
+    "nodemon": "^3.1.10"
+  }
+}
